@@ -1,7 +1,7 @@
 from email_validator import validate_email, EmailNotValidError
 import csv
 
-email = "yugesh.ragavan@yugest.com"
+#email = "yugesh.ragavan@yugest.com"
 
 with open('email.csv', 'r') as file:
   reader = csv.reader(file)
