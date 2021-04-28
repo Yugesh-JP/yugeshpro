@@ -3,6 +3,8 @@ import csv
 
 #email = "yugesh.ragavan@yugest.com"
 
+#hi mae
+
 with open('email.csv', 'r') as file:
   reader = csv.reader(file)
   next(reader)
